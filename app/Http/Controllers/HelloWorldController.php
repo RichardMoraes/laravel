@@ -10,6 +10,6 @@ class HelloWorldController extends Controller
          return view('hello_world');
     }
     public function hello($name = 'Fulano') {
-         return 'Heloo, ' . $name;
+         return 'O cadu é????, ' . $name;
     }
 }
